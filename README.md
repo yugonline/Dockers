@@ -16,7 +16,8 @@ You can check the docker images using
 		docker images
 		
 You can see the following output : 
-username/genji            latest              12344d913742        About a minute ago   1.24GB
+
+		username/genji            latest              12344d913742        About a minute ago   1.24GB
 
 To push this to hub.docker.com or hub.docker.io, you need to have an account and you can login from commandline using
 

@@ -26,3 +26,7 @@ To push this to hub.docker.com or hub.docker.io, you need to have an account and
 After adding your credentials yuo can run the following command to push the docker on the cloud.
 
 		docker push username/genji:latest
+
+To run the docker file use the following command. Specially for the tensorflow version.
+
+		docker run -it -p 8888:8888 -p 0.0.0.0:7007:6006 username/genji:latest

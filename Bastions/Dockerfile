@@ -6,7 +6,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends build-essential
 
 RUN curl -O https://bootstrap.pypa.io/get-pip.py && python3 get-pip.py && rm get-pip.py
 
-RUN pip3 --no-cache-dir install Pillow h5py ipykernel jupyter matplotlib numpy pandas quandl scipy sklearn && python3 -m ipykernel.kernelspec
+RUN pip3 --no-cache-dir install Pillow h5py ipykernel jupyter matplotlib numpy pandas quandl statistics pickle scipy sklearn && python3 -m ipykernel.kernelspec
 
 RUN pip3 --no-cache-dir install http://ci.tensorflow.org/view/Nightly/job/nightly-python35-linux-cpu/lastSuccessfulBuild/artifact/pip_test/whl/tensorflow-1.head-cp35-cp35m-manylinux1_x86_64.whl
 
